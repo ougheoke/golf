@@ -53,6 +53,11 @@ const games = [
     author: "Ethan Rinke"
     },
   {
+    title: "Garrett's Game",
+    link: "https://garrettdodd.tech/CIS-376/BRAVO_LAB/index.html",
+    author: "Garrett Dodd"
+    },
+  {
     title: "Hardik's Game",
     link: "NEED LINK",
     author: "Hardik Gupta"
@@ -69,7 +74,7 @@ const games = [
     },
   {
     title: "Katheryn's Game",
-    link: "",
+    link: " https://codepen.io/katherynisabell/full/WNzWGNd",
     author: "Katheryn Grant"
     },
   {
@@ -89,7 +94,7 @@ const games = [
       },
   {
     title: "Maggie's Game",
-    link: "NEED LINK",
+    link: "https://mlittle98.github.io/DELTALAB/",
     author: "Maggie Little"
     },
   {
@@ -109,7 +114,7 @@ const games = [
     },
   {
     title: "Rachel's Game",
-    link: "NEED LINK",
+    link: "https://github.com/panhead63/bravo/tree/main",
     author: "Rachel Thompson"
     },
   {
@@ -157,7 +162,7 @@ var el = `<div class='card text-center mx-auto bg-secondary inverse=True' style=
 
 $('#firstCard').append(el);
 
-$('.nav-dropdown').append($(`<li><a href="#!"> ${item.author} </a></li>`));
+$('.nav-dropdown').append($(`<li><a href="${item.link}"> ${item.author} </a></li>`));
 
 });
 
