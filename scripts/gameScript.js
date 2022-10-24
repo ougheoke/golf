@@ -162,7 +162,7 @@ var el = `<div class='card text-center mx-auto bg-secondary inverse=True' style=
 
 $('#firstCard').append(el);
 
-$('.nav-dropdown').append($(`<li><a href="${item.link}"> ${item.author} </a></li>`));
+$('.nav-dropdown').append($(`<li><a href="${item.link}" target="_blank"> ${item.author} </a></li>`));
 
 });
 
